@@ -1,0 +1,71 @@
+/* .topcontainer
+{
+    background-color: gainsboro !important;
+    background: url('../../assets/myim.jpeg');
+    height: 40vw;
+    
+    background-position: left;
+    background-size:800px;
+    background-repeat: no-repeat; */
+    /* box-shadow: inset 0 0 100px 200px rgba(0,0,0,0.5); */
+/* } */ 
+
+.topcontainer {
+    background-color: #f2f2f2;
+    height: 80vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+  }
+  
+  .topcontainer img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topcontainer h1 {
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 1rem 0; */
+  }
+  
+  .topcontainer p {
+    font-size: 1.5rem;
+    color: #555;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .topcontainer .buttons-container {
+    display: flex;
+  }
+  
+  .topcontainer .topcontent_downloadbutton,
+  .topcontainer .topcontent_workbutton {
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    color: #fff;
+  }
+  
+  .topcontainer .topcontent_downloadbutton {
+    background-color: #FF7F50;
+  }
+  
+  .topcontainer .topcontent_workbutton {
+    background-color: #000000;
+  }
+  
+  .topcontainer .topcontent_downloadbutton:hover,
+  .topcontainer .topcontent_workbutton:hover {
+    transform: scale(1.05);
+  }
+  

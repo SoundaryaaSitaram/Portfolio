@@ -1,0 +1,36 @@
+.project > img{
+    width : 280px;
+    height : 279px;
+}
+.project
+{
+    margin: 15px;
+    width : 280px;
+    height : 279px;
+    margin-left: 380px;
+    transition: transform 100ms ease-in;
+    background-color: gainsboro;
+}
+
+.project:hover
+{
+    color: #001F3F;
+    background-color: #FF7F50 !important;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project_content 
+{
+    padding: 10px;   
+}
+.project_content > h4
+{
+    padding-bottom: 5px;
+}
+.project_content > p{
+    font-size: 15px;
+}

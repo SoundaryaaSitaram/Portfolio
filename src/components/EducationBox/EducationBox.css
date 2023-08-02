@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;600&display=swap');
+
+.education
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted #001F3F;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    justify-content: center; /* Main-Axis alignment */
+    align-items: center; /* Cross-Axis alignment */
+    /* background-color: rgb(255, 255, 255); */
+    overflow: hidden;
+}
+
+.education>h2{
+    color: #001F3F;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.education > div > h1{
+    background-color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.education > div > p{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    color: #001F3F;
+    justify-content: center ;
+    align-items: center ;
+    background-color: white;
+    text-align: center;
+}

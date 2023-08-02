@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+.skillContainer{
+    display: flex;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    height: 80vh;
+    /* margin: 200px 200px 0 0; */
+    
+}
+/* *
+{
+    background-color: gainsboro;
+} */
+.skillContainer_text
+{
+    color: #000000;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+
+
+}
+
+
+.skillContainer_text>h2
+{
+    font-size: 40px;
+    
+}
+.skillContainer_image
+{
+    margin-left: 230px;
+    margin-top: 40px;
+    /* margin-right: 10px; */
+  width: 650px;
+  height: 480px; /* Adjust the height as per your requirement */
+  overflow: hidden;
+
+}
+.slides {
+    display: flex;
+    width: 500%; /* Adjust the width based on the number of images */
+    animation: slideAnimation 10s infinite; /* Adjust the animation duration as needed */
+    border:3px solid  #FF7F50;
+  }
+
+.slides > img
+{
+  width: 20%; /* Adjust the width as per your requirement */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  /* border:3px solid #FF7F50; */
+}
+.slider:hover .slides img {
+    transform: scale(4.1); /* Adjust the scaling factor as desired */
+  }
+@keyframes slideAnimation {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: -100%;
+    }
+    40% {
+      margin-left: -200%;
+    }
+    60% {
+      margin-left: -300%;
+    }
+    80% {
+      margin-left: -400%;
+    }
+    100% {
+      margin-left: -400%;
+    }
+  }
+/* .skillContainer_image >img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    object-fit: contain;
+} */
+.skillContainer_skillset >h5
+{
+    font-family: "Montserrat",sans-serif;
+    /* font-weight: 300; */
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skillContainer_slider > .MuiLinearProgress-colorPrimary
+{
+    background-color: rgb(88,88,88);
+    height: 10px;
+    border-radius: 6px;
+}
+.skillContainer_slider1 > div >.MuiLinearProgress-barColorPrimary
+{
+    background-color: 	#3F26BF;
+}
+.skillContainer_slider2 > div >.MuiLinearProgress-barColorPrimary
+{
+    background-color: #19a385;
+}
+.skillContainer_slider3 > div >.MuiLinearProgress-barColorPrimary
+{
+    background-color: #FF3399;
+}
+.skillContainer_slider4 > div >.MuiLinearProgress-barColorPrimary
+{
+    background-color: rgb(0, 42, 255);
+}
+.skillContainer_slider5 > div >.MuiLinearProgress-barColorPrimary
+{
+    background-color: rgb(249, 5, 5);
+}
